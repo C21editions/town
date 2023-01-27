@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../assets/stylesheet.xsl"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+<teiMain>
+
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liberty Suit</title>
+        <author>Annemarie Ní Churreáin</author>
+        <respStmt>
+          <name>James O'Sullivan</name>
+          <resp>Creation of the machine-readable text and TEI-conformant markup</resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>C21 Editions</publisher>
+        <date>2023</date>
+        <availability>This digital text is freely available provided the content of the literary text is not modified and this header information remains attached to any further distributions.</availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Town</title>
+          <author>Annemarie Ní Churreáin and Rich Gilligan</author>
+          <publisher>The Salvage Press</publisher>
+          <pubPlace>Dublin</pubPlace>
+          <date>2018</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>This document is part of a wider project to make the contents of Town, a collection of poetry and photography by Annemarie Ní Churreáin and Rich Gilligan, available as TEI-compliant machine-readable texts. The transcription and encoding of these materials has been undertaken with the kind permission of Jamie Murphy, who imprint The Salvage Press, published the original printed editions of Town in 2018.</p>
+      </projectDesc>
+    </encodingDesc>
+  </teiHeader>
+
+  <text>
+    <body>
+      <lg>
+      <dedication>for the students of Mountjoy Prison</dedication>
+      </lg>
+      <lg>
+        <l>Let me dress you, stranger,</l>
+        <l>in this new suit cut from a quart of ironlight.</l>
+        <l rend="indent"><hi type="italic">(You may call it ‘moon’)</hi></l>
+      </lg>
+      <lg>
+        <l>See how the fabric falls</l>
+        <l>like a spill of stars,</l>
+        <l>how the pleats unfold like threads of water.</l>
+      </lg>
+      <lg>
+        <l>Wear this suit in honour of a wing.</l>
+        <l>Wear this suit despite the darkness that inhabits</l>
+        <l>and escapes every cell.</l>
+      </lg>
+      <lg>
+        <l>Walk forward in the footsteps of Elatha</l>
+        <l>who emerged out of the sea</l>
+        <l>bearing five twisted metals around his neck</l>
+        <l>and for his son a hollow</l>
+        <l>of gold.</l>
+      </lg>
+      <lg>
+        <l>Hold open your trembling palms.</l>
+        <l>A city is a form of remembering.</l>
+        <l>You too are born of kings.</l>
+      </lg>
+    </body>
+  </text>
+
+</teiMain>
+
+</TEI>

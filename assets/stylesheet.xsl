@@ -4,7 +4,7 @@
   <xsl:template match="sourceDesc">
     <xsl:attribute name="style">display: none;</xsl:attribute>
   </xsl:template>
-  <xsl:template match="titleStmt respStmt">
+  <xsl:template match="titleStmt">
     <xsl:attribute name="style">display: none;</xsl:attribute>
   </xsl:template>
   <xsl:template match="publicationStmt">
@@ -37,7 +37,7 @@
       line-height: 1.5;
     </xsl:attribute>
   </xsl:template>
-  <xsl:template match="teiHeader titleStmt title">
+  <xsl:template match="teiHeader">
     <xsl:attribute name="style">
       display: block;
       font-family: sans-serif;
@@ -51,7 +51,7 @@
       font-size: 1.4rem;
     </xsl:attribute>
   </xsl:template>
-  <xsl:template match="teiHeader titleStmt author">
+  <xsl:template match="teiHeader">
     <xsl:attribute name="style">
       font-style: italic;
       font-weight: normal;
@@ -63,4 +63,6 @@
     </xsl:attribute>
   </xsl:template>
   <xsl:template match="lg">
-    <xsl:attribute name="style">
+    <xsl:attribute name="style">:</xsl:attribute>
+  </xsl:template>
+</xsl:stylesheet>

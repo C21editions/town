@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
-
-  <xsl:template match="sourceDesc">
+ <xsl:template match="sourceDesc">
     <xsl:attribute name="style">display: none;</xsl:attribute>
   </xsl:template>
-  <xsl:template match="titleStmt respStmt">
+ <xsl:template match="respStmt">
     <xsl:attribute name="style">display: none;</xsl:attribute>
   </xsl:template>
   <xsl:template match="publicationStmt">
@@ -60,10 +59,6 @@
       margin: -0.5rem 0 1.5rem 0;
       font-size: 0.85em;
       display: block;
-    </xsl:attribute>
-  </xsl:template>
-  <xsl:template match="lg">
-    <xsl:attribute name="style">
     </xsl:attribute>
   </xsl:template>
 </xsl:stylesheet>

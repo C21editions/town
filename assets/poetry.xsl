@@ -257,7 +257,7 @@
             }
 
             dedication {
-              font-style: regular;
+              font-style: italic;
             }
 
             ref {

@@ -177,9 +177,6 @@
               flex: 50%;
             }
 
-            /* CSS FOR TEI-CONFORMING XML PAGES */
-
-
             sourceDesc {
               display: none;
             }
@@ -242,7 +239,7 @@
 
             lg {
               display: block;
-              font-size: 0.8em;
+              font-size: 1.5em;
               line-height: 1.25;
               margin: 0px 0px 20px 0px;
             }

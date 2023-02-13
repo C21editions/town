@@ -239,7 +239,7 @@
 
             lg {
               display: block;
-              font-size: 1.5em;
+              font-size: 0.8em;
               line-height: 1.25;
               margin: 0px 0px 20px 0px;
             }
@@ -257,7 +257,7 @@
             }
 
             dedication {
-              font-style: italic;
+              font-style: regular;
             }
 
             ref {

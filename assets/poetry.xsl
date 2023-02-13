@@ -6,8 +6,6 @@
       <hmtl>
         <head>
           <style>
-            /* CSS FOR HTML PAGES */
-
             * {
               -webkit-box-sizing: border-box;
               -moz-box-sizing: border-box;

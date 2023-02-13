@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
- <xsl:template match="sourceDesc">
+<xsl:stylesheet version="2.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+
+  <xsl:template match="sourceDesc">
     <xsl:attribute name="style">display: none;</xsl:attribute>
   </xsl:template>
- <xsl:template match="respStmt">
+  <xsl:template match="titleStmt respStmt">
     <xsl:attribute name="style">display: none;</xsl:attribute>
   </xsl:template>
   <xsl:template match="publicationStmt">
@@ -29,14 +30,14 @@
       }
     </xsl:attribute>
   </xsl:template>
- <xsl:template match="teiMain">
+  <xsl:template match="teiMain">
     <xsl:attribute name="style">
       font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
       font-size: 1.25em;
       line-height: 1.5;
     </xsl:attribute>
   </xsl:template>
-  <xsl:template match="title">
+  <xsl:template match="teiHeader titleStmt title">
     <xsl:attribute name="style">
       display: block;
       font-family: sans-serif;
@@ -50,7 +51,7 @@
       font-size: 1.4rem;
     </xsl:attribute>
   </xsl:template>
-  <xsl:template match="author">
+  <xsl:template match="teiHeader titleStmt author">
     <xsl:attribute name="style">
       font-style: italic;
       font-weight: normal;
@@ -59,6 +60,44 @@
       margin: -0.5rem 0 1.5rem 0;
       font-size: 0.85em;
       display: block;
+    </xsl:attribute>
+  </xsl:template>
+  <xsl:template match="lg">
+    <xsl:attribute name="style">
+      display: block;
+      font-size: 0.8em;
+      line-height: 1.25;
+      margin: 0px 0px 20px 0px;
+    </xsl:attribute>
+  </xsl:template>
+  <xsl:template match="l">
+    <xsl:attribute name="style">
+      display: block;
+    </xsl:attribute>
+  </xsl:template>
+  <xsl:template match="l[rend=indent]">
+    <xsl:attribute name="style">
+      text-indent: 10.5em;
+    </xsl:attribute>
+  </xsl:template>
+  <xsl:template match="hi[type=italic]">
+    <xsl:attribute name="style">
+      font-style: italic;
+    </xsl:attribute>
+  </xsl:template>
+  <xsl:template match="dedication">
+    <xsl:attribute name="style">
+      font-style: italic;
+    </xsl:attribute>
+  </xsl:template>
+  <xsl:template match="ref">
+    <xsl:attribute name="style">
+      max-width: 32rem;
+      padding-left: 1rem;
+      padding-right: 1rem;
+      margin-left: auto;
+      margin-right: auto;
+      display: block;  
     </xsl:attribute>
   </xsl:template>
 </xsl:stylesheet>

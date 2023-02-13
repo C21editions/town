@@ -273,6 +273,9 @@
                 margin-right: auto;
                 display: block;  
             }
+            note {
+              font-size: 0.5em;
+            }
           </style>
           <title></title>
         </head>

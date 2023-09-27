@@ -3,8 +3,6 @@
 
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 
-<teiMain>
-
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -18,7 +16,9 @@
       <publicationStmt>
         <publisher>C21 Editions</publisher>
         <date>2023</date>
-        <availability>This digital text is freely available provided the content of the literary text is not modified and this header information remains attached to any further distributions.</availability>
+        <availability>This digital text is freely available provided the content of the literary
+          text is not modified and this header information remains attached to any further
+          distributions.</availability>
       </publicationStmt>
       <sourceDesc>
         <bibl>
@@ -29,10 +29,17 @@
           <date>2018</date>
         </bibl>
       </sourceDesc>
+      <revisionDesc>
+        <change when="2023-06-19">James O'Sullivan created this document.</change>
+      </revisionDesc>
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>This document is part of a wider project to make the contents of Town, a collection of poetry and photography by Annemarie Ní Churreáin and Rich Gilligan, available as TEI-compliant machine-readable texts. The transcription and encoding of these materials has been undertaken with the kind permission of Jamie Murphy, who imprint The Salvage Press, published the original printed editions of Town in 2018.</p>
+        <p>This document is part of a wider project to make the contents of Town, a collection of
+          poetry and photography by Annemarie Ní Churreáin and Rich Gilligan, available as
+          TEI-compliant machine-readable texts. The transcription and encoding of these materials
+          has been undertaken with the kind permission of Jamie Murphy, who imprint The Salvage
+          Press, published the original printed editions of Town in 2018.</p>
       </projectDesc>
     </encodingDesc>
   </teiHeader>
@@ -40,7 +47,7 @@
   <text>
     <body>
       <lg>
-      <dedication>for the students of Mountjoy Prison</dedication>
+        <dedication>for the students of Mountjoy Prison</dedication>
       </lg>
       <lg>
         <l>Let me dress you, stranger,</l>
@@ -71,7 +78,5 @@
       </lg>
     </body>
   </text>
-
-</teiMain>
 
 </TEI>

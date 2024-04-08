@@ -37,7 +37,7 @@
               margin-top: 0.5em; /* Adds a little space above the poem */
             }
             .line {
-              margin: 0.5em 0;
+              margin: 0.3em 0;
             }
             .line[indented="true"] {
               text-indent: 2em;

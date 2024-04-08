@@ -4,39 +4,38 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 
   <teiHeader>
-            <fileDesc>
-                <titleStmt>
-                    <title>Lady on the Rock</title>
-                    <author>Annemarie Ní Churreáin</author>
-                    <respStmt>
-                        <name>Michael Kurzmeier</name>
-                        <resp>Creation of the machine-readable text and TEI-conformant markup</resp>
-                    </respStmt>
-                </titleStmt>
-                <publicationStmt>
-                    <publisher>C21 Editions</publisher>
-                    <date>2023</date>
-                    <availability>This digital text is freely available provided the content of the literary text is not modified and this header information remains attached to any further distributions.</availability>
-                </publicationStmt>
+    <fileDesc>
+        <titleStmt>
+            <title>Lady on the Rock</title>
+            <author>Annemarie Ní Churreáin</author>
+            <respStmt>
+                <name>Michael Kurzmeier</name>
+                <resp>Creation of the machine-readable text and TEI-conformant markup</resp>
+            </respStmt>
+        </titleStmt>
+            <publicationStmt>
+                <publisher>C21 Editions</publisher>
+                <date>2023</date>
+                <availability>This digital text is freely available provided the content of the literary text is not modified and this header information remains attached to any further distributions.</availability>
+            </publicationStmt>
                 <sourceDesc>
                     <bibl>
-                        <title>Town</title>
-                        <author>Annemarie Ní Churreáin and Rich Gilligan</author>
-                        <publisher>The Salvage Press</publisher>
-                        <pubPlace>Dublin</pubPlace>
-                        <date>2018</date>
+                    <title>Town</title>
+                    <author>Annemarie Ní Churreáin and Rich Gilligan</author>
+                    <publisher>The Salvage Press</publisher>
+                    <pubPlace>Dublin</pubPlace>
+                    <date>2018</date>
                     </bibl>
                 </sourceDesc>
-            </fileDesc>
+    </fileDesc>
             <encodingDesc>
                 <projectDesc>
                     <p>This document is part of a wider project to make the contents of Town, a collection of poetry and photography by Annemarie Ní Churreáin and Rich Gilligan, available as TEI-compliant machine-readable texts. The transcription and encoding of these materials has been undertaken with the kind permission of Jamie Murphy, who imprint The Salvage Press, published the original printed editions of Town in 2018.</p>
                 </projectDesc>
             </encodingDesc>
-        </teiHeader>
+    </teiHeader>
     <text>
         <body>
-        		<space/>
             <lg>
                 <l>Clay-thighed and washed by waves,</l>
                 <l>the White Lady</l>
@@ -75,5 +74,4 @@
             </lg>
         </body>
     </text>
-
 </TEI>

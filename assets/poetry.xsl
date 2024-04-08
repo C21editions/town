@@ -12,22 +12,18 @@
               margin: 0;
               padding: 0;
               display: flex;
-              justify-content: center;
-              align-items: flex-start; /* Keep content at the top */
+              justify-content: center; /* Horizontally center the content */
+              align-items: center; /* Vertically center the content */
               min-height: 100vh;
-              flex-direction: column;
               text-align: left;
             }
             .container {
-              width: 60%; /* Adjust as needed for proper centering */
-              margin-top: 2em; /* Adjust space above the poem */
               display: flex;
               flex-direction: column;
-              align-items: center; /* Center the container itself */
+              align-items: flex-start; /* Aligns the container's content to the start, making it left-aligned */
             }
-            .poem, .title, .author {
-              text-align: left;
-              max-width: 100%; /* Ensure alignment within container */
+            .title, .author, .poem {
+              margin: 0.5em 0; /* Adds a little space between the title, author, and the poem */
             }
             .line {
               margin: 0.5em 0;

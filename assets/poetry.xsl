@@ -9,7 +9,7 @@
           <style>
             body {
               font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-              font-size: 1em; /* Set the font size */
+              font-size: 1.25em; /* Set the font size */
               margin: 0;
               padding: 0;
               display: flex;

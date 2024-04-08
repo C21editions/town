@@ -10,7 +10,6 @@
             body {
               font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
               font-size: 1em; /* Set the font size */
-              line-height: 1.5; /* Set the line height */
               margin: 0;
               padding: 0;
               display: flex;

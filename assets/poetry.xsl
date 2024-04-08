@@ -47,18 +47,38 @@
               width: 100%;
             }
 
-            .container {
-              max-width: 32rem;
-              padding-left: 1rem;
-              padding-right: 1rem;
-              margin-left: auto;
-              margin-right: auto;
-            }
+            
+.container {
+  max-width: 32rem; /* or any other width */
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center; /* This centers the text within the container */
+}
+
+/* Additional CSS to ensure all text within the container is centered */
+.container > * {
+  text-align: center;
+}
+
 
             @media (min-width: 56em) {
-              .container {
-                max-width: 38rem;
-              }
+              
+.container {
+  max-width: 32rem; /* or any other width */
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center; /* This centers the text within the container */
+}
+
+/* Additional CSS to ensure all text within the container is centered */
+.container > * {
+  text-align: center;
+}
+
             }
 
             a,

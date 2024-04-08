@@ -9,7 +9,7 @@
           <style>
             body {
               font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-              font-size: 1.25em; /* Set the font size */
+              font-size: 1.25em; /* Base font size for the document */
               margin: 0;
               padding: 0;
               display: flex;
@@ -25,8 +25,16 @@
               flex-direction: column;
               align-items: flex-start; /* Aligns the container's content to the start, making it left-aligned */
             }
-            .title, .author, .poem {
-              margin: 0.5em 0; /* Adds a little space between the title, author, and the poem */
+            .title {
+              font-size: 1.8em; /* Larger font size for the title */
+              margin-bottom: 0; /* Remove space below the title */
+            }
+            .author {
+              font-style: italic; /* Italicize the author's name */
+              margin-top: 0; /* Remove space above the author's name to bring it closer to the title */
+            }
+            .poem {
+              margin-top: 0.5em; /* Adds a little space above the poem */
             }
             .line {
               margin: 0.5em 0;

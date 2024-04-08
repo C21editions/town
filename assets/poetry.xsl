@@ -50,16 +50,13 @@
               margin: 1em 0; /* Adjust spacing as needed */
               padding: 0.5em 1em; /* Padding for the link */
               font-size: 1em; /* Match the document's font size */
-              text-decoration: none; /* Optional: removes underline */
-              color: #1D4DC6; /* Example color */
-              background-color: #f0f0f0; /* Example background color */
-              border-radius: 5px; /* Optional: adds rounded corners */
+              text-decoration: underline; /* Ensures it's recognizable as a link */
+              color: #1D4DC6; /* Example link color, adjust as needed */
               cursor: pointer; /* Indicates clickability */
             }
           </style>
         </head>
         <body>
-          <a href="http://example.com" class="custom-link">Visit Example</a>
           <div class="container">
             <div class="title">
               <xsl:value-of select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/>
@@ -83,6 +80,7 @@
                     </div>
                   </xsl:for-each>
                 </div>
+                  <a href="http://example.com" class="custom-link">Visit Example</a>
               </xsl:for-each>
             </div>
           </div>

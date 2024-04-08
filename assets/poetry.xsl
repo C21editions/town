@@ -82,7 +82,7 @@
                 </div>
               </xsl:for-each>
             </div>
-            <a href="/" class="custom-link">Go back</a>
+            <a href="/index.html" class="custom-link">Go back</a>
           </div>
         </body>
       </html>

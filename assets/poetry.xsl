@@ -49,6 +49,7 @@
               display: inline-block; /* Or block, depending on your layout needs */
               margin: 1em 0; /* Adjust spacing as needed */
               font-size: 1em; /* Match the document's font size */
+              text-decoration: none; /* Ensures it's recognizable as a link */
               color: #1D4DC6; /* Example link color, adjust as needed */
               cursor: pointer; /* Indicates clickability */
             }

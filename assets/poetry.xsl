@@ -45,9 +45,16 @@
             .italic {
               font-style: italic;
             }
+            .back-button {
+            margin: 1em 0; /* Adjust spacing as needed */
+            padding: 0.5em 1em; /* Padding for the button */
+            font-size: 1em; /* Match the document's font size */
+            cursor: pointer; /* Change cursor to pointer to indicate clickability */
+            }
           </style>
         </head>
         <body>
+          <button class="back-button" onclick="window.history.back();">Back</button>
           <div class="container">
             <div class="title">
               <xsl:value-of select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/>

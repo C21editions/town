@@ -7,29 +7,127 @@
       <html>
         <head>
           <style>
-            body {
-              text-align: center; /* Center text */
-              font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+            * {
+              -webkit-box-sizing: border-box;
+              -moz-box-sizing: border-box;
+              box-sizing: border-box;
+            }
+
+            html, body {
               margin: 0;
               padding: 0;
-              display: flex;
-              justify-content: center;
-              align-items: center;
-              min-height: 100vh;
-              flex-direction: column;
+              overflow-x: hidden;
+              font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+              color: #454545;
+              background-color: #fff;
             }
-            .poem {
-              width: 60%; /* Adjust as needed */
+
+            html {
+              font-size: 1em;
+              line-height: 1.5;
+            }
+
+            @media (min-width: 38em) {
+              html {
+                font-size: 1.25em;
+              }
+            }
+
+            body {
+              -webkit-text-size-adjust: 100%;
+              -ms-text-size-adjust: 100%;
+            }
+
+            a, .text-title a {
+              color: #1D4DC6;
+              text-decoration: none;
+            }
+
+            a:hover, a:focus {
+              text-decoration: underline;
+            }
+
+            h1, h2, h3, h4, h5, h6 {
+              font-family: sans-serif;
+              margin-bottom: 0.5rem;
+              font-weight: normal;
+              color: #404040;
+              letter-spacing: -0.025rem;
+              line-height: 1.25;
+              text-rendering: optimizeLegibility;
+            }
+
+            h1 { font-size: 1.4rem; }
+            h2 { font-size: 1.2rem; }
+            h3, h4, h5, h6 { font-size: 1rem; }
+
+            p {
+              margin-top: 0;
+              margin-bottom: 1rem;
+            }
+
+            ul, ol {
+              list-style: none;
+            }
+
+            .poem, .masthead, .container, .wrap, .content, .row, .column, teiMain, ref {
+              max-width: 32rem;
+              padding-left: 1rem;
+              padding-right: 1rem;
+              margin-left: auto;
+              margin-right: auto;
+              position: relative;
+              display: block;
+            }
+
+            @media (min-width: 56em) {
+              .container, .poem, .masthead, .wrap, .content, .row, .column, teiMain, ref {
+                max-width: 38rem;
+              }
+            }
+
+            .line, l, lg, dedication, note, teiHeader titleStmt title, teiHeader titleStmt author {
+              font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+              line-height: 1.5;
+              display: block;
+              text-align: center;
               margin: auto;
             }
-            .line {
-              margin: 0.5em 0;
+
+            .italic, hi[type='italic'] {
+              font-style: italic;
             }
-            .line[indented="true"] {
+
+            .masthead-title {
+              color: #505050;
+              font-size: 1.8rem;
+              line-height: 0.777em;
+              margin-top: 2em;
+              margin-bottom: 0;
+              text-align: center;
+            }
+
+            .masthead-title small {
+              color: #454545;
+              font-family: sans-serif;
+              font-size: 0.88rem;
+              font-weight: normal;
+              letter-spacing: 0.05rem;
+              display: none;
+            }
+
+            @media (min-width: 48em) {
+              .masthead-title small {
+                display: inline;
+              }
+            }
+
+            .line[indented="true"], l[rend="indent"] {
               text-indent: 2em;
             }
-            .italic {
-              font-style: italic;
+
+            sourceDesc, titleStmt respStmt, publicationStmt, encodingDesc {
+              display: none;
             }
           </style>
         </head>

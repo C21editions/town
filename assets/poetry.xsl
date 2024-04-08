@@ -9,6 +9,8 @@
           <style>
             body {
               font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+              font-size: 1em; /* Set the font size */
+              line-height: 1.5; /* Set the line height */
               margin: 0;
               padding: 0;
               display: flex;
@@ -16,6 +18,8 @@
               align-items: center; /* Vertically center the content */
               min-height: 100vh;
               text-align: left;
+              color: #454545; /* Set text color */
+              background-color: #fff; /* Set background color */
             }
             .container {
               display: flex;

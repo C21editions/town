@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" version="2.0" href="../assets/poetry-stylesheet.xsl"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Church</title>
+                    <author>Annemarie Ní Churreáin</author>
+                    <respStmt>
+                        <name>Michael Kurzmeier</name>
+                        <resp>Creation of the machine-readable text and TEI-conformant markup</resp>
+                    </respStmt>
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>C21 Editions</publisher>
+                    <date>2023</date>
+                    <availability>This digital text is freely available provided the content of the literary text is not modified and this header information remains attached to any further distributions.</availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <bibl>
+                        <title>Town</title>
+                        <author>Annemarie Ní Churreáin and Rich Gilligan</author>
+                        <publisher>The Salvage Press</publisher>
+                        <pubPlace>Dublin</pubPlace>
+                        <date>2018</date>
+                    </bibl>
+                </sourceDesc>
+            </fileDesc>
+            <encodingDesc>
+                <projectDesc>
+                    <p>This document is part of a wider project to make the contents of Town, a collection of poetry and photography by Annemarie Ní Churreáin and Rich Gilligan, available as TEI-compliant machine-readable texts. The transcription and encoding of these materials has been undertaken with the kind permission of Jamie Murphy, who imprint The Salvage Press, published the original printed editions of Town in 2018.</p>
+                </projectDesc>
+            </encodingDesc>
+        </teiHeader>
+    <text>
+        <lg>
+        		<l><hi type="italic">at Cill na Manach</hi></l>
+        </lg>
+        <lg>
+            <l>Is this the house where I was dreamed so hard my mother said it hurt?</l>
+        </lg>
+        <lg>
+            <l>Is this the house <space/><space/> where I was named full of grace?</l>
+            <l rend = "indent4"> where I was held up in the snow of 1981?</l>
+            <l rend = "indent4"> where I was fed small spoons of rice?</l>
+        </lg>
+        <lg>
+            <l>Is this the house with the blackened yard where daises upburst</l>
+            <l>through the cracks, still ignorant of chains?</l>
+        </lg>
+        <lg>
+            <l>Is this the house where my father sang</l>
+            <l><hi type ="italic">did you happen to see <space/><space/>the most beautiful girl<space/><space/> in the world?</hi></l>
+        </lg>
+        <lg>
+            <l>Is this house the house of pearl tiles, velvet chairs, lace net</l>
+            <l>dripped to the sills?</l>
+        </lg>
+        <lg>
+            <l>Is this the house in which my grandmother cupped me like an egg</l>
+            <l>between her palms and prayed</l>
+            <l><hi type ="italic">let her be this one, let her fly?</hi></l>
+        </lg>
+        <lg>
+            <l>This house was like a church to us.</l>
+            <l>We kneeled with monks. We drank from a holy well.</l>
+            <l>We held a nettle to the face of the enemy.</l>
+        <lg>
+        </lg>
+            <l>All that is left now is a consort of the great Oak.</l>
+        </lg>
+    </text>
+</TEI>
+

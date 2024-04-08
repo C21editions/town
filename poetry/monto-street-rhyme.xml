@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" version="2.0" href="../assets/poetry-stylesheet.xsl"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Monto Street Rhyme</title>
+                    <author>Annemarie Ní Churreáin</author>
+                    <respStmt>
+                        <name>Michael Kurzmeier</name>
+                        <resp>Creation of the machine-readable text and TEI-conformant markup</resp>
+                    </respStmt>
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>C21 Editions</publisher>
+                    <date>2023</date>
+                    <availability>This digital text is freely available provided the content of the literary text is not modified and this header information remains attached to any further distributions.</availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <bibl>
+                        <title>Town</title>
+                        <author>Annemarie Ní Churreáin and Rich Gilligan</author>
+                        <publisher>The Salvage Press</publisher>
+                        <pubPlace>Dublin</pubPlace>
+                        <date>2018</date>
+                    </bibl>
+                </sourceDesc>
+            </fileDesc>
+            <encodingDesc>
+                <projectDesc>
+                    <p>This document is part of a wider project to make the contents of Town, a collection of poetry and photography by Annemarie Ní Churreáin and Rich Gilligan, available as TEI-compliant machine-readable texts. The transcription and encoding of these materials has been undertaken with the kind permission of Jamie Murphy, who imprint The Salvage Press, published the original printed editions of Town in 2018.</p>
+                </projectDesc>
+            </encodingDesc>
+        </teiHeader>
+    <text>
+        <body>
+        		<lg>
+        		   <space/>
+        			<l>Sailors, soldiers, gambling sons,</l>
+        			<l rend ="indent1">turn your pockets out for Mrs Mack</l>
+        			<l>or to the quays you will go back</l>
+        		</lg>
+        		<lg>
+        			<l>from kips and flash-rooms, alleyways.</l>
+        			<l rend = "indent1">Royal men or Leopold,</l>
+        			<l> come this way to World's End Lane,</l>
+        		</lg>
+        		<lg>
+        			<l>be you lonely, ill, insane.</l>
+        			<l rend = "indent1">The Nighttown workers lie in wait</l>
+        			<l>as the Monto babies shriek</l>
+        		</lg>
+        		<lg>
+        			<l>for sucks of milk.</l>
+        			<l rend = "indent1">The heat is that of hell's own fire.</l>
+        			<l>Secret-keepers, sinners, liars —</l>
+        		</lg>
+        		<lg>
+        			<l>ignore the 'poor unfortunates'.</l>
+        			<l rend = "indent1">These are the lost of Mabbot Lane.</l>
+        			<l>Say nothing more of Honour Bright,</l>
+        		</lg>
+        		<lg>
+        			<l rend = "indent1">she who got the doctor riled,</l>
+        			<l>wound up in the Dublin hills</l>
+        			<l rend = "indent1">(the doctor didn't giver her pills),</l>
+        		</lg>
+        		<lg>
+        			<l>the policeman didn't bring her home.</l>
+        			<l rend = "indent1">A single bullet through the heart.</l>
+        			<l>Soon her name on a shining plaque</l>
+        		</lg>
+        		<lg>
+        			<l>will mark the Monto in the earth.</l>
+        			<l rend = "indent1">Hear the Marys, a close is near,</l>
+        			<l>the women locked up in the wards</l>
+        		</lg>
+        		<lg>
+        			<l>or cleaning sheets for holy men</l>
+        			<l rend = "indent1">or smothered in a sick-house bed.</l>
+        			<l>Lust and porter cheap as dirt</l>
+        		</lg>
+        		<lg>
+        			<l>down on Lower Mecklenburgh Street,</l>
+        			<l rend = "indent1">a kiss for a penny, a pound for a slap.</l>
+        			<l>Sailors, soldiers, gambling sons.</l>
+        		</lg>
+        </body>
+    </text>
+
+</TEI>

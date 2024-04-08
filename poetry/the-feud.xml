@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" version="2.0" href="../assets/poetry-stylesheet.xsl"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>The Feud</title>
+                    <author>Annemarie Ní Churreáin</author>
+                    <respStmt>
+                        <name>Michael Kurzmeier</name>
+                        <resp>Creation of the machine-readable text and TEI-conformant markup</resp>
+                    </respStmt>
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>C21 Editions</publisher>
+                    <date>2023</date>
+                    <availability>This digital text is freely available provided the content of the literary text is not modified and this header information remains attached to any further distributions.</availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <bibl>
+                        <title>Town</title>
+                        <author>Annemarie Ní Churreáin and Rich Gilligan</author>
+                        <publisher>The Salvage Press</publisher>
+                        <pubPlace>Dublin</pubPlace>
+                        <date>2018</date>
+                    </bibl>
+                </sourceDesc>
+            </fileDesc>
+            <encodingDesc>
+                <projectDesc>
+                    <p>This document is part of a wider project to make the contents of Town, a collection of poetry and photography by Annemarie Ní Churreáin and Rich Gilligan, available as TEI-compliant machine-readable texts. The transcription and encoding of these materials has been undertaken with the kind permission of Jamie Murphy, who imprint The Salvage Press, published the original printed editions of Town in 2018.</p>
+                </projectDesc>
+            </encodingDesc>
+        </teiHeader>
+    <text>
+        <body>
+				<space/>
+        		<lg>
+        			<l>Shadowblast.</l>
+        		</lg>
+        		<lg>
+        			<l>Skin parts</l>
+        			<l rend ="indent1">and the boy dreams <space/> the wet</l>
+        			<l>after rain <space/> settling</l>
+        			<l>pearl</l>
+        			<l>by pearl</l>
+        			<l>on a yarrow stem.</l>
+        		</lg>
+        		<lg>
+        			<l>Eighteen summers old</l>
+        			<l>and soon the field around him will inflate</l>
+        			<l>like a bud <space/> beneath a stranger's kiss.</l>
+        		</lg>
+        		<lg>
+        			<l><hi type="italic">Let us go out to the field,</hi></l>
+        			<l>Cain said.</l>
+        		</lg>
+        		<lg>
+        			<l>Beyond the bridge, a kinglet with a steely eye</l>
+        			<l>tucks a feather back into place</l>
+        			<l>as the water shines.</l>
+        		</lg>
+        		<lg>
+        			<l>In the garden of memorial</l>
+        			<l>how many sons?</l>
+        		</lg>
+        		<lg>
+        			<l>For those already in the earth</l>
+        			<l>the incription reads</l>
+        			<l><hi type="italic">we have found safety.</hi></l>
+        		</lg>
+        </body>
+    </text>
+
+</TEI>

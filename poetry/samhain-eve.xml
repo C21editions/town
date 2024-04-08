@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" version="2.0" href="../assets/poetry-stylesheet.xsl"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Samhain Eve</title>
+                    <author>Annemarie Ní Churreáin</author>
+                    <respStmt>
+                        <name>Michael Kurzmeier</name>
+                        <resp>Creation of the machine-readable text and TEI-conformant markup</resp>
+                    </respStmt>
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>C21 Editions</publisher>
+                    <date>2023</date>
+                    <availability>This digital text is freely available provided the content of the literary text is not modified and this header information remains attached to any further distributions.</availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <bibl>
+                        <title>Town</title>
+                        <author>Annemarie Ní Churreáin and Rich Gilligan</author>
+                        <publisher>The Salvage Press</publisher>
+                        <pubPlace>Dublin</pubPlace>
+                        <date>2018</date>
+                    </bibl>
+                </sourceDesc>
+            </fileDesc>
+            <encodingDesc>
+                <projectDesc>
+                    <p>This document is part of a wider project to make the contents of Town, a collection of poetry and photography by Annemarie Ní Churreáin and Rich Gilligan, available as TEI-compliant machine-readable texts. The transcription and encoding of these materials has been undertaken with the kind permission of Jamie Murphy, who imprint The Salvage Press, published the original printed editions of Town in 2018.</p>
+                </projectDesc>
+            </encodingDesc>
+        </teiHeader>
+    <text>
+            <lg>
+            	 <space/>
+                <l><hi type="italic">Gone</hi> is the stream from your mouth.</l>
+                <l>By torchlight we search the Phoenix Park,</l>
+                <l>where once they found buried in the dirt</l>
+            </lg>
+            <lg>
+                <l>a shelled necklace, a flint blade, a toggle</l>
+                <l>made of bone five thousand years ago.</l>
+                <l>Tonight even the long oaks seem lost.</l>
+            </lg>
+            <lg>
+                <l>I think of the dumb, rubber ball</l>
+                <l>on the kitchen floor, the empty water bowl</l>
+                <l>shining. It is the first time I see you weep.</l>
+            </lg>
+            <lg>
+                <l>What moves in the shadows is unknown,</l>
+                <l>though I can hear the shy deer creeping</l>
+                <l>at the edges, bellies shaped into the night,</l>
+            </lg>
+            <lg>
+                <l>eyes bright as skeletons inside the tomb</l>
+                <l>at Knockmaree on this Samhein eve.</l>
+                <l>Small fires fall in the honour of the dead.</l>
+            </lg>
+            <lg>
+                <l>We spread a blanket upon the grass.</l>
+                <l><hi type="italic">She will know this place by scent,</hi> you say</l>
+                <l>as you lean like a river to the earth.</l>
+            </lg>
+    </text>
+
+</TEI>
+

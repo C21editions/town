@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" version="2.0" href="../assets/poetry-stylesheet.xsl"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Shrine</title>
+                    <author>Annemarie Ní Churreáin</author>
+                    <respStmt>
+                        <name>Michael Kurzmeier</name>
+                        <resp>Creation of the machine-readable text and TEI-conformant markup</resp>
+                    </respStmt>
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>C21 Editions</publisher>
+                    <date>2023</date>
+                    <availability>This digital text is freely available provided the content of the literary text is not modified and this header information remains attached to any further distributions.</availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <bibl>
+                        <title>Town</title>
+                        <author>Annemarie Ní Churreáin and Rich Gilligan</author>
+                        <publisher>The Salvage Press</publisher>
+                        <pubPlace>Dublin</pubPlace>
+                        <date>2018</date>
+                    </bibl>
+                </sourceDesc>
+            </fileDesc>
+            <encodingDesc>
+                <projectDesc>
+                    <p>This document is part of a wider project to make the contents of Town, a collection of poetry and photography by Annemarie Ní Churreáin and Rich Gilligan, available as TEI-compliant machine-readable texts. The transcription and encoding of these materials has been undertaken with the kind permission of Jamie Murphy, who imprint The Salvage Press, published the original printed editions of Town in 2018.</p>
+                </projectDesc>
+            </encodingDesc>
+        </teiHeader>
+    <text>
+        <body>
+        			<l><hi type="italic">at Whitefriar Street Church</hi></l>
+        		<lg>
+					<space/>
+        			<l>Here rests a shred of bone.</l>
+        			<l>In the name of Valentine</l>
+        		</lg>
+        		<lg>
+        			<l>a flame persists against decades</l>
+        			<l>rising from a pew.</l>
+        		</lg>
+        		<lg>
+        			<l>The holy font is empty but uplit:</l>
+        			<l><hi type="italic">sinners welcome, begin again.</hi></l>
+        		</lg>
+        		<lg>
+        			<l>I kneel before the open book</l>
+        			<l>of harms retold</l>
+        		</lg>
+        		<lg>
+        			<l>beneath the rolling marble,</l>
+        			<l>birchwood, scented wax</l>
+        		</lg>
+        		<lg>
+        			<l>to scar upon the page</l>
+        			<l>as carefully as braille</l>
+        		</lg>
+        		<lg>
+        			<l>pressed into night</l>
+        			<l>my heart's own script.</l>
+        		</lg>
+        		<lg>
+        			<l><hi type="italic">Saint of stone, crocus in hand,</hi></l>
+        			<l><hi type="italic">cure me of my blindness.</hi></l>
+        		</lg>
+        </body>
+    </text>
+
+</TEI>

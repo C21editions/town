@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" version="2.0" href="../assets/poetry-stylesheet.xsl"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Dubhlinn</title>
+                    <author>Annemarie Ní Churreáin</author>
+                    <respStmt>
+                        <name>Michael Kurzmeier</name>
+                        <resp>Creation of the machine-readable text and TEI-conformant markup</resp>
+                    </respStmt>
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>C21 Editions</publisher>
+                    <date>2023</date>
+                    <availability>This digital text is freely available provided the content of the literary text is not modified and this header information remains attached to any further distributions.</availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <bibl>
+                        <title>Town</title>
+                        <author>Annemarie Ní Churreáin and Rich Gilligan</author>
+                        <publisher>The Salvage Press</publisher>
+                        <pubPlace>Dublin</pubPlace>
+                        <date>2018</date>
+                    </bibl>
+                </sourceDesc>
+            </fileDesc>
+            <encodingDesc>
+                <projectDesc>
+                    <p>This document is part of a wider project to make the contents of Town, a collection of poetry and photography by Annemarie Ní Churreáin and Rich Gilligan, available as TEI-compliant machine-readable texts. The transcription and encoding of these materials has been undertaken with the kind permission of Jamie Murphy, who imprint The Salvage Press, published the original printed editions of Town in 2018.</p>
+                </projectDesc>
+            </encodingDesc>
+        </teiHeader>
+    <text>
+        <body>
+        		<lg>
+        		   <space/>
+        			<l>Dark tidal pools remain</l>
+        			<l rend ="indent1">the true tongue of this city, vowels</l>
+        			<l>blackened by burning, scentenced to sea.</l>
+        		</lg>
+        		<lg>
+        			<l>To learn a new language you must first make a home</l>
+        			<l>and with your body practice <space/> every day.</l>
+        		</lg>
+        		<lg>
+        			<l>How to open: find an Ibar branch and kneel.</l>
+        			<l rend ="indent1">The fruit is plenty and holds within a single seed.</l>
+        			<l rend ="indent3">The seed governs where it falls.</l>
+        			<l>How to settle: raise your block in the shade of monks.</l>
+        			<l>How to listen: become misshapen as the rock-thorn bay</l>
+        			<l>and memorise the names of departing boats.</l>
+        			<l>How to play: light a tyre or place a skull upon a stick.</l>
+        			<l>How to honour syllables: enter water.</l>
+        			<l>How to comprehend: gather peat not coal.</l>
+        			<l>How to pray: expose a ruin and agree to it.</l>
+        			<l>How to read: thieve a relic from the oldest church</l>
+        			<l><hi type="italic">(you may choose a bone, the heart is gone).</hi></l>
+        			<l>How to write: against invasion, make.</l>
+        			<l>How to speak: repeat east winds, islands, salt.</l>
+        			<l>How to swim: in the river dream <hi type="italic">'I was a Flower of the mountain yes'.</hi></l>
+        		</lg>
+        </body>
+    </text>
+
+</TEI>

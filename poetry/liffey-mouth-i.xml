@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" version="2.0" href="../assets/poetry-stylesheet.xsl"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Liffey, Mouth, I</title>
+                    <author>Annemarie Ní Churreáin</author>
+                    <respStmt>
+                        <name>Michael Kurzmeier</name>
+                        <resp>Creation of the machine-readable text and TEI-conformant markup</resp>
+                    </respStmt>
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>C21 Editions</publisher>
+                    <date>2023</date>
+                    <availability>This digital text is freely available provided the content of the literary text is not modified and this header information remains attached to any further distributions.</availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <bibl>
+                        <title>Town</title>
+                        <author>Annemarie Ní Churreáin and Rich Gilligan</author>
+                        <publisher>The Salvage Press</publisher>
+                        <pubPlace>Dublin</pubPlace>
+                        <date>2018</date>
+                    </bibl>
+                </sourceDesc>
+            </fileDesc>
+            <encodingDesc>
+                <projectDesc>
+                    <p>This document is part of a wider project to make the contents of Town, a collection of poetry and photography by Annemarie Ní Churreáin and Rich Gilligan, available as TEI-compliant machine-readable texts. The transcription and encoding of these materials has been undertaken with the kind permission of Jamie Murphy, who imprint The Salvage Press, published the original printed editions of Town in 2018.</p>
+                </projectDesc>
+            </encodingDesc>
+        </teiHeader>
+    <text>
+        <body>
+            <lg>
+                <lg>
+                    <l>I</l>
+                </lg>
+                <lg>
+                    <l>I am all source when you lay me down in June</l>
+                    <l>and whisper 
+                        <space/>
+                        <hi type="italic">I want you here.</hi>
+                    </l>
+                </lg>
+                <lg rend="indent1">
+                    <l>I am both here 
+                        <space/>and many-streamed
+                    </l>
+                    <l>among the fjords and meadows</l>
+                </lg>
+                <lg>
+                    <l>muck-pooled and purpled, peat-dreaming</l>
+                    <l>tunnels, cotton slopes.</l>
+                </lg>
+                <lg>
+                    <l>But how to speak yet of rowing boats?</l>
+                    <l>How to say the testimony of a swan?</l>
+                </lg>
+                <lg>
+                    <l rend="indent1">A river is a thing of parts.</l>
+                </lg>
+            </lg>
+            <lg>
+                <lg>
+                    <l rend ="indent1">II</l>
+                </lg>
+                <lg rend = "indent1">
+                    <l>
+                        <hi type = "italic">Abhainn na Life, Anna Livia, An Ruirthech.</hi>
+                    </l>
+                    <l>Beneath the tongue I pulse</l>
+                </lg>
+                <lg rend = "indent3">
+                    <l>shifting sediments, taking shape.</l>
+                    <l>I pass under an unmarked bridge</l>
+                </lg>
+                <lg rend = "indent3">
+                    <l>and move the pale blonde watergrass.</l>
+                    <l>A reservoir does the work of Gods.</l>
+                </lg>
+                <lg rend = "indent1">
+                    <l>As within me wild creatures swim,</l>
+                    <l>I speed against the blind curve of banks,</l>
+                </lg>
+                <lg rend = "indent3">
+                    <l>Even Canaan's daughter disappeared.</l>
+                </lg>
+            </lg>
+                        <lg>
+            	 <lg>
+                <l>III</l>
+                </lg>
+                <lg>
+                <l>Here are the ways in which I aim to outlive</l>
+                <l>father, the seedling dreams of mother,</l>
+                </lg>
+                <lg rend = "indent1">
+                <l>bruising forth, blurring static over flat plains,</l>
+                <l>a question unreplied.</l>
+                </lg>
+                <lg>
+                <l>Bring me to your lips and I can say only</l>
+                <l>the love-word <hi type = "italic">soon</hi>.</l>
+                </lg>
+                <lg rend ="indent1">
+                <l>You cannot keep me from this route, I must</l>
+                <l>take you in my arms.</l>
+                </lg>
+                <lg rend = "indent3">
+                <l>What the river carries, the river knows.</l>
+                </lg>
+            </lg>
+            <lg>
+                    <lg rend ="indent1">
+                        <l>IV</l>
+                    </lg>
+                    <lg rend ="indent1">
+                        <l>
+                            <hi type = "italic">Lover, women, girl </hi>
+                            <space/> these are the names
+                        </l>
+                        <l>that you call me through darkness</l>
+                    </lg>
+                    <lg>
+                        <l>but in the ling marrow of my bones a drowning</l>
+                        <l>repeats</l>
+                    </lg>
+                    <lg rend = "indent1">
+                        <l>and falls away 
+                            <space/> and repeats.
+                        </l>
+                        <l>All this shadow, all this reckoning.</l>
+                    </lg>
+                     <lg rend = "indent1">
+                        <l>Let me swear in the language of the water</l>
+                        <l>as honest as an oar</l>
+                    </lg>
+                    <lg rend = "indent3">
+                        <l>
+                            <hi type = "italic">to you I will return.</hi>
+                        </l>
+                    </lg>
+                </lg>
+                <lg>
+                    <lg>
+                        <l>V</l>
+                    </lg>
+                    <lg>
+                        <l>Heart and the land opens thirteen times to reveal</l>
+                        <l>beyond terminals,</l>
+                    </lg>
+                    <lg>
+                        <l>unbright ships, tanks purring in the port</l>
+                        <l>beneath a plural sky. 
+                            <space/><space/>This is how I arrive to you.
+                        </l>
+                    </lg>
+                    <lg rend ="indent1">
+                        <l>Liffey, mouth, I: now one.</l>
+                        <l>The twisted river of my history unmade.</l>
+                    </lg>
+                    <lg>
+                        <l>Hold me 
+                            <space/>like the holiest of water
+                        </l>
+                        <l>carefully and with intent. Hold me</l>
+                    </lg>
+                    <lg rend ="indent3">
+                        <l>
+                            <hi type = "italic">finally, I am here.</hi>
+                        </l>
+                    </lg>
+                </lg>
+            </body>
+        </text>
+    </TEI>

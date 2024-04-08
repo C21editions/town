@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" version="2.0" href="../assets/poetry-stylesheet.xsl"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>The Heart Of Saint Laurence O'Toole</title>
+                    <author>Annemarie Ní Churreáin</author>
+                    <respStmt>
+                        <name>Michael Kurzmeier</name>
+                        <resp>Creation of the machine-readable text and TEI-conformant markup</resp>
+                    </respStmt>
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>C21 Editions</publisher>
+                    <date>2023</date>
+                    <availability>This digital text is freely available provided the content of the literary text is not modified and this header information remains attached to any further distributions.</availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <bibl>
+                        <title>Town</title>
+                        <author>Annemarie Ní Churreáin and Rich Gilligan</author>
+                        <publisher>The Salvage Press</publisher>
+                        <pubPlace>Dublin</pubPlace>
+                        <date>2018</date>
+                    </bibl>
+                </sourceDesc>
+            </fileDesc>
+            <encodingDesc>
+                <projectDesc>
+                    <p>This document is part of a wider project to make the contents of Town, a collection of poetry and photography by Annemarie Ní Churreáin and Rich Gilligan, available as TEI-compliant machine-readable texts. The transcription and encoding of these materials has been undertaken with the kind permission of Jamie Murphy, who imprint The Salvage Press, published the original printed editions of Town in 2018.</p>
+                </projectDesc>
+            </encodingDesc>
+        </teiHeader>
+    <text>
+        <body>
+            <lg>
+            	<space/>
+            	<l>The heart was the only target, the bishop said</l>
+            	<l>when news of my theft spread</l>
+            	<l>in the streets until even</l>
+            	<l>the smooth, wet cobblestones</l>
+            	<l>mourned.</l>
+            </lg>
+            <lg>
+            	<l>Three times taken:</l>
+            	<l>first, as histage at the age of ten for my father;</l>
+            	<l>next, carved out of the human chest like a curse;</l>
+            	<l>finally, stolen from the cathedral,</l>
+            	<l>only a candle left burning in my wake</l>
+            </lg>
+            <lg>
+            	<l>I would know by now the scent of a raid in the dark.</l>
+            	<l>Yet who can claim I have not tried to defend myself?</l>
+            </lg>
+            <lg>
+            	<l>Reborn according to the holy book, I lay for peace</l>
+            	<l>between borders. I healed with water.</l>
+            	<l>I refused red-berry wine, tender cuts of meat,</l>
+            	<l>all the time shielding my body in hair.</l>
+            </lg>
+            <lg>
+            	<l>And for what reward?</l>
+            	<l>In this afterlife,</l>
+            	<l>I remain</l>
+            	<l>ruined</l>
+            	<l>by desire.</l>
+            </lg>
+           </body>
+          </text>
+
+         </TEI>
+          

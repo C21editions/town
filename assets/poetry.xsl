@@ -45,16 +45,21 @@
             .italic {
               font-style: italic;
             }
-            .back-button {
-            margin: 1em 0; /* Adjust spacing as needed */
-            padding: 0.5em 1em; /* Padding for the button */
-            font-size: 1em; /* Match the document's font size */
-            cursor: pointer; /* Change cursor to pointer to indicate clickability */
+            .custom-link {
+              display: inline-block; /* Or block, depending on your layout needs */
+              margin: 1em 0; /* Adjust spacing as needed */
+              padding: 0.5em 1em; /* Padding for the link */
+              font-size: 1em; /* Match the document's font size */
+              text-decoration: none; /* Optional: removes underline */
+              color: #1D4DC6; /* Example color */
+              background-color: #f0f0f0; /* Example background color */
+              border-radius: 5px; /* Optional: adds rounded corners */
+              cursor: pointer; /* Indicates clickability */
             }
           </style>
         </head>
         <body>
-          <button class="back-button" onclick="window.history.back();">Back</button>
+          <a href="http://example.com" class="custom-link">Visit Example</a>
           <div class="container">
             <div class="title">
               <xsl:value-of select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/>

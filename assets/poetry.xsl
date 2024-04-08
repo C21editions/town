@@ -30,6 +30,7 @@
               margin-bottom: 0; /* Remove space below the title */
             }
             .author {
+              font-size: 1.25em; /* Larger font size for the title */
               font-style: italic; /* Italicize the author's name */
               margin-top: 0; /* Remove space above the author's name to bring it closer to the title */
             }

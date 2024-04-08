@@ -31,9 +31,18 @@
             .italic {
               font-style: italic;
             }
+            .title, .author {
+              margin-top: 1em;
+            }
           </style>
         </head>
         <body>
+          <div class="title">
+            <xsl:value-of select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/>
+          </div>
+          <div class="author">
+            <xsl:value-of select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:author"/>
+          </div>
           <div class="poem">
             <xsl:for-each select="tei:TEI/tei:text/tei:body/tei:lg">
               <div>
